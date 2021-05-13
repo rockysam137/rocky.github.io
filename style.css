@@ -1,0 +1,128 @@
+/*#sidebar {
+	height: 100vh;
+	width: 250px;
+	background-color: #28ed95;
+	margin-top:-5px;
+	background-size: cover;
+	position: fixed;
+	margin-top: 10px;
+
+	style="height: 100vh; background-color: #f8f9fa;"
+}*/
+body {
+	font-family: 'Lato', sans-serif;
+}
+#sidebar .row #kirinav{
+	height: 100%;
+	width: 17%;
+	background-color:#f8f9fa;
+}
+#colum {
+	padding-left: 200px;
+	margin-top: 90px;
+	text-align: justify;
+}
+
+.nav {
+	margin-top: 80px;
+	padding-left: 10px;
+}
+.nav img{
+	width: 140px;
+	height: 137px;
+	margin-left: -5px;
+	border-style:solid;
+}
+#nav1 a i{
+	margin-right: 10px;
+}
+#About {
+	padding-top: 70px;
+}
+#Contac {
+	padding-top: 60px;
+}
+
+
+@media (max-width: 868px){
+	#sidebar .row #kirinav{
+		display: none !important;
+	}
+	#sidebar #colum {
+		/*margin-left: -100px;*/
+		text-align: justify;
+		flex: 50%;
+	}
+	#colum {
+		margin-top:90px;
+		padding-left: 10px;
+		padding-right: 30px;
+		margin-left: 30px;
+
+	}
+}
+@media (max-width: 600px){
+	#sidebar .row #kirinav {
+		display: none !important;
+	}
+	#sidebar #colum {
+		/*margin-left: -100px;*/
+		text-align: justify;
+		flex: 50%;
+	}
+	#colum {
+		margin-top:90px;
+		padding-left: 10px;
+		padding-right: 30px;
+		margin-left: 30px;
+
+	}
+}
+
+@media (max-width: 479px){
+	#colum {
+		margin-top:90px;
+		padding-left: 10px;
+		padding-right: 30px;
+		margin-left: 30px;
+	}
+	#sidebar .row #kirinav {
+		display: none !important;
+}
+
+/*animasi*/
+#typed-cursor{
+	opacity: 1;
+	font-weight: 100 /*bisa di ganti*/
+	-webkit-animation:blink 0.7s infinite;
+	-moz-animation:blink 0.7s infinite;
+	-ms-animation:blink 0.7s infinite;
+	-o-animation:blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+@-keyframes blink{
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-webkit-keyframes blink{
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-moz-keyframes blink{
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-ms-keyframes blink{
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-o-keyframes blink{
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+/*akir*/
