@@ -1,10 +1,7 @@
-//(starTyper)=div id di HTML
-$(function(){
-	$(".starTyper").typed({
-	strings: ["Internet, Technology, Music, Sport "],
-	typeSpeed : 50,
-	backDelay : 100.
-	loop : True,
-	loopCount: False,
-	});
+var typed = new Typed('.ping', {
+  // Waits 1000ms after typing "First"
+  strings: ['Like Internet.', 'Music.', 'technologi', 'sport'],
+  typeSpeed:100,
+  backSpeed:100,
+  loop:true,
 });
