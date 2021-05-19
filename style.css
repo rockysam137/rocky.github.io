@@ -12,6 +12,7 @@
 body {
 	font-family: 'Lato', sans-serif;
 }
+
 #sidebar .row #kirinav{
 	height: 100%;
 	width: 17%;
@@ -19,6 +20,7 @@ body {
 }
 #colum {
 	padding-left: 200px;
+	padding-right: 30px ;
 	margin-top: 90px;
 	text-align: justify;
 }
@@ -27,6 +29,28 @@ body {
 	margin-top: 80px;
 	padding-left: 10px;
 }
+
+.nav span {
+	text-shadow: 0 0 0 #f7f6f6;
+	font-size: 110%;
+	font-weight:bold;
+	color: #111010;
+}
+
+.nav .I{
+	weight :10px ;
+	background: rgb(231,233,35);
+	background: linear-gradient(20deg, rgba(231,233,35,1) 11%, rgba(193,23,51,1) 46%, rgba(190,0,255,1) 76%);
+}
+
+.nav .W{
+	background:#25f505;
+}
+
+.nav .T{
+	background: #151715;
+}
+
 .nav img{
 	width: 140px;
 	height: 137px;
@@ -45,7 +69,7 @@ body {
 	padding-top: 60px;
 }
 footer {
-	margin-left: -60px;
+	margin-left: -40px;
 }
 footer p{
 	font-size: 10px;
@@ -57,6 +81,7 @@ footer p{
 	text-align: center;
 	color:#0d6efd;
 }
+
 
 
 
@@ -76,6 +101,7 @@ footer p{
 		margin-left: 30px;
 
 	}
+	
 }
 @media (max-width: 576px){
 	#sidebar .row #kirinav {
@@ -90,11 +116,11 @@ footer p{
 		margin-top:90px;
 		padding-left: 10px;
 		padding-right: 30px;
-		margin-left: 30px;
+		margin-left: 18px;
 
 	}
-	#kikuk{
-		padding-left:9rem;
+	.row #kikuk{
+		padding-left:5rem;
 		align-items: center;
 	}
 	#kikuk p{
@@ -102,53 +128,20 @@ footer p{
 	}
 }
 
-@media (max-width: 479px){
+@media (max-width : 320px){
 	#colum {
 		margin-top:90px;
-		padding-left: 10px;
-		padding-right: 30px;
-		margin-left: 30px;
+		
+		padding-right: 10px;
+		margin-left: 10px;
 	}
 	#sidebar .row #kirinav {
 		display: none !important;
 
 }
+	.row #kikuk{
+		padding-left: 5rem;
+	}
 }
 
 
-/*animasi*/
-#typed-cursor{
-	opacity: 1;
-	font-weight: 100 /*bisa di ganti*/
-	-webkit-animation:blink 0.7s infinite;
-	-moz-animation:blink 0.7s infinite;
-	-ms-animation:blink 0.7s infinite;
-	-o-animation:blink 0.7s infinite;
-	animation: blink 0.7s infinite;
-}
-@-keyframes blink{
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@-webkit-keyframes blink{
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@-moz-keyframes blink{
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@-ms-keyframes blink{
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@-o-keyframes blink{
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-/*akir*/
